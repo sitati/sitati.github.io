@@ -1,0 +1,29 @@
+# Hugo build output
+/public
+/resources
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude
+.claude/
+
+# Playwright MCP
+.playwright-mcp/
+
+# Review screenshots
+review-*.png
+fixed-*.png
+projects-row1.png
+site-full-page.png
+
+# Source CV markdown
+peter_sitati_cv.md

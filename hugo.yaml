@@ -1,0 +1,313 @@
+baseURL: "https://sitati.github.io/"
+languageCode: "en-us"
+title: "Peter Sitati"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Peter Sitati"
+  description: "Technology Leader | AI & Fintech | Portfolio"
+  favicon: "/images/fav.png"
+
+  customCSS: true
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    defaultTheme: "light"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Peter Sitati"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, I'm"
+    title: "Peter Sitati."
+    subtitle: "Builder & Tinkerer | AI, Fintech & Beyond"
+    content: "I build things. From AI agents and DeFi bots to voice-driven learning platforms and telecom infrastructure — if it's interesting, I'll figure out how it works and ship something with it."
+    image: /images/profile.png
+    bottomImage:
+      enable: false
+    roundImage: true
+    button:
+      enable: true
+      name: "Download CV"
+      url: /peter_sitati_cv.pdf
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/peter-sitati-5848ab18
+        - icon: fab fa-github
+          url: https://github.com/sitati
+        - icon: fas fa-envelope
+          url: mailto:sangura.sitati@gmail.com
+      customIcons:
+        - icon: /images/nars-icon.png
+          url: https://www.narstechnical.co.ke
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    content: |-
+      I'm a tinkerer at heart with 15+ years of building software across wildly different domains — fintech, media, agritech, DeFi, telecom, bioinformatics. I get restless if I'm not pulling apart something new.
+
+      My projects range from DeFi bots to voice-first AI tutors built on WebRTC, from automating government tender submissions with Claude to reconciling bank settlements across 38 African countries. I run [NARS Technical Services](https://www.narstechnical.co.ke) in Nairobi, where the rule is simple: if it's an interesting problem, we build it.
+    skills:
+      enable: true
+      title: "Technologies I work with:"
+      items:
+        - "Flutter / FlutterFlow"
+        - "React / Next.js"
+        - "FastAPI / Python"
+        - "TypeScript / JavaScript"
+        - "LangGraph / Mastra"
+        - "Claude API / OpenAI"
+        - "LiveKit (WebRTC)"
+        - "Deepgram / ElevenLabs"
+        - "AWS / GCP / Docker"
+        - "PostgreSQL"
+
+  # Experience
+  experience:
+    enable: true
+    items:
+      - company: "NARS Technical Services"
+        companyUrl: "https://www.narstechnical.co.ke"
+        jobs:
+          - name: "Chief Executive Officer"
+            date: "Mar 2022 - Present"
+            content: |
+              Building AI-powered enterprise solutions, managing telco infrastructure deployments, and leading software development in Nairobi, Kenya.
+
+              - Managing a team providing telecom services rollout and maintenance including wireless installations, fiber optic cabling (overhead and underground), and LAN deployments for enterprise clients.
+              - Built a voice-first AI learning platform using LiveKit (WebRTC), LangGraph, and Deepgram that transforms study materials into real-time voice-based quiz sessions with adaptive spaced repetition.
+              - Developed a settlement reconciliation platform (FastAPI, React, LangGraph) automating extraction and aggregation of bank settlement data across hundreds of accounts in multiple African countries.
+              - Created an AI-powered content management agent using Mastra and Claude to autonomously grade, optimize SEO/GEO, and curate 1,200+ blog posts.
+              - Built an LPO processing and invoice generation suite (Python, pdfquery, ReportLab) that extracts financial data from Local Purchase Order PDFs and auto-generates professional invoices and reports.
+              - Developed an LPO parser (Python, pdfplumber) for bulk extraction of structured data from procurement documents with multi-strategy fallback for OCR-damaged files.
+              - Engineered a DeFi trading bot (Solidity, Python, Web3.py) that detects and executes arbitrage opportunities across decentralized exchanges with multicall batching and real-time monitoring.
+              - Engineered a tender document automation tool (Python, PyMuPDF, Claude API) for government tender submissions.
+              - Designed eTIMS integration tooling for Kenya Revenue Authority electronic tax invoice compliance.
+              - Led deployment of secure, high-availability networking infrastructure for enterprise clients.
+
+      - company: "TradePulse Inc."
+        companyUrl: "#"
+        jobs:
+          - name: "Head of Mobile"
+            date: "Jan 2024 - Jul 2025"
+            content: |
+              Led mobile and web platform development for agro-processing in Nairobi, Kenya.
+
+              - Led end-to-end Flutter development of the TradePulse Mobile App, enabling agro-processors to manage inventory, create orders, accept payments, and generate reports — reducing order processing time by 40%.
+              - Spearheaded React/Next.js development of the TradePulse Sourcing Platform, a CRM-driven B2B system that streamlined raw material sourcing between buyers and suppliers.
+              - Collaborated with product and operations to scale the platform regionally, supporting hundreds of daily transactions.
+
+      - company: "Radio Africa Group"
+        companyUrl: "#"
+        jobs:
+          - name: "Team Leader, Innovation"
+            date: "Sep 2018 - Apr 2022"
+            content: |
+              Directed agile teams building consumer digital products reaching millions of users.
+
+              - Built a music streaming platform with real-time recommendations.
+              - Developed a digital newspaper platform enabling subscriptions and seamless content delivery.
+              - Created interactive games and quizzes that boosted engagement and dwell time.
+              - Championed modern software practices and cloud infrastructure to accelerate development cycles.
+          - name: "Software Engineer"
+            date: "May 2016 - Sep 2018"
+            content: "Built consumer digital products and supported digital transformation initiatives for one of East Africa's largest media groups."
+
+      - company: "Cellulant Kenya"
+        companyUrl: "#"
+        jobs:
+          - name: "Software Engineer"
+            date: "Nov 2011 - Apr 2016"
+            content: |
+              Developed payment and fintech systems for enterprise and government clients in Nairobi, Kenya.
+
+              - Developed and maintained bulk payment systems for enterprise and government clients, enabling high-volume secure transactions.
+              - Built payment systems powering the Growth Enhancement Support Program (Nigeria), digitally connecting input suppliers to millions of farmers.
+              - Modeled agricultural input supply chains, managed large datasets, and ensured platform resilience.
+
+      - company: "IITA"
+        companyUrl: "#"
+        jobs:
+          - name: "Bioinformatician"
+            date: "Sep 2010 - Nov 2011"
+            content: |
+              International Institute of Tropical Agriculture, Nairobi, Kenya.
+
+              - Developed data mining and bioinformatics workflows for genomic data analysis.
+              - Managed sequence data storage and retrieval systems; created scripts to parse and process biological sequence data.
+
+      - company: "Earlier Roles"
+        companyUrl: "#"
+        jobs:
+          - name: "Various Positions"
+            date: "2005 - 2010"
+            content: |
+              - Research Assistant at Innovative Health Research — mobile health applications for community health workers (2010)
+              - Coordinator, Network Installations at NARS Technical Services (2007-2008)
+              - Drupal Integrator at Koumbit Network, Montreal (2006-2007)
+              - Web Developer at Norpix Inc. (2005-2006)
+              - Web Developer at Canadian Chemical Biology Network (2006)
+
+  # Education
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Biochemistry & Molecular Biology"
+        school:
+          name: "Jomo Kenyatta University of Agriculture and Technology"
+          url: "https://www.jkuat.ac.ke/"
+        content: |-
+          Publication: *Genomics and Potential Downstream Applications in the Developing World*
+
+          Certification: Java Developer Certificate
+      - title: "Biochemistry & Molecular Biology"
+        school:
+          name: "McGill University"
+          url: "https://www.mcgill.ca/"
+        content: |-
+          Languages: English (Native), Swahili (Native), French (Limited Working Proficiency)
+
+  # Projects
+  projects:
+    enable: true
+    items:
+      - title: Voice-First AI Learning Platform
+        image: /images/project-voice-ai.png
+        content: Real-time voice-based quiz sessions with adaptive spaced repetition, built with LiveKit (WebRTC), LangGraph, and Deepgram. Deployed to production with full subscription billing.
+        badges:
+          - "LiveKit"
+          - "LangGraph"
+          - "Deepgram"
+          - "WebRTC"
+
+      - title: Settlement Reconciliation Platform
+        image: /images/project-settlement.png
+        content: Automated extraction and aggregation of bank settlement data across hundreds of accounts in multiple African countries, supporting NIBSS, KEPSS, PAPSS, and SWIFT formats.
+        badges:
+          - "FastAPI"
+          - "React"
+          - "LangGraph"
+          - "Python"
+
+      - title: AI Content Management Agent
+        image: /images/project-content-agent-2.png
+        content: Autonomous system using Mastra and Claude to grade, optimize SEO/GEO, and curate 1,200+ blog posts for an electric vehicle publication focused on developing economies.
+        badges:
+          - "Mastra"
+          - "Claude API"
+          - "AI Agents"
+
+      - title: Tender Document Automation
+        image: /images/project-tender.png
+        content: Extracts fillable fields from complex government PDFs, auto-fills from company profiles, and generates multiple output formats. Used for real government tender submissions.
+        badges:
+          - "Python"
+          - "PyMuPDF"
+          - "Claude API"
+
+      - title: eTIMS Integration Tooling
+        image: /images/project-etims-2.png
+        content: Kenya Revenue Authority electronic tax invoice compliance integration covering 20+ API endpoints across device registration, invoicing, stock management, and item classification.
+        badges:
+          - "Python"
+          - "REST APIs"
+          - "KRA"
+
+      - title: TradePulse Mobile App
+        image: /images/project-tradepulse.png
+        content: Flutter app enabling agro-processors to manage inventory, create orders, accept payments, and generate reports — reducing order processing time by 40%.
+        badges:
+          - "Flutter"
+          - "Mobile"
+          - "Fintech"
+
+  # Contact
+  contact:
+    enable: true
+    content: "I'm always open to discussing new opportunities, partnerships, or innovative projects. Feel free to reach out!"
+    btnName: Email Me
+    btnLink: mailto:sangura.sitati@gmail.com
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/sitati
+      linkedin: https://www.linkedin.com/in/peter-sitati-5848ab18
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
