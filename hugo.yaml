@@ -84,7 +84,7 @@ params:
         - icon: fas fa-envelope
           url: mailto:sangura.sitati@gmail.com
       customIcons:
-        - icon: /images/nars-icon.png
+        - icon: /images/nars-icon.webp
           url: https://www.narstechnical.co.ke
 
   # About
