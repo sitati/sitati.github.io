@@ -94,7 +94,7 @@
       <li>Created an <b>AI content management agent</b> (Mastra, Claude) to autonomously grade, optimize SEO/GEO, and curate <b>1,200+ blog posts</b> for an EV publication focused on developing economies.</li>
       <li>Built <b>Run.KE</b>, a running events platform for Kenya (Wasp 0.21, React, Node.js, Prisma) — event discovery and admin tooling with <b>LLM-vision flyer parsing</b> for stylized posters, running-track and gym directories (OpenStreetMap), a route tool, Cloudflare R2 presigned uploads, Turnstile bot protection, and scheduled analytics jobs.</li>
       <li>Built an <b>agentic content manager</b> (Mastra, Claude) for a health publication that grades drafts across mission-alignment and technical-quality dimensions, optimizes SEO, and publishes to Ghost CMS under YMYL/E-E-A-T standards.</li>
-      <li>Built <b>gbrain</b>, a local-first <b>knowledge-graph memory system</b> served over <b>MCP</b> with 100+ tools — semantic retrieval over local Ollama embeddings in PGLite, graph traversal, entity/fact extraction, contradiction detection, document ingestion (PDF/XLSX/DOCX + OCR), and background job orchestration.</li>
+      <li>Integrated <b>gbrain</b>, a local-first <b>knowledge-graph memory system</b> served over <b>MCP</b>, across my most important repositories as a working <b>knowledge base</b>, writing the ingestion, rescan, remote-sync and health-check tooling around it and the query playbooks it is used through: semantic retrieval over local Ollama embeddings in PGLite, graph traversal, entity/fact extraction, and contradiction detection over the corpus.</li>
       <li>Built a <b>tender document automation tool</b> (Python, PyMuPDF, Claude API) and <b>eTIMS integration tooling</b> for KRA tax-invoice compliance (20+ endpoints); engineered a DeFi arbitrage trading bot (Solidity, Web3.py).</li>
       <li>Led deployment of secure, high-availability networking infrastructure (fiber, wireless, LAN) for enterprise clients.</li>
     </ul>
@@ -103,10 +103,10 @@
   <div class="job">
     <div class="job-head">
       <div><span class="job-title">Head of Mobile</span> · <span class="job-company">TradePulse Inc.</span></div>
-      <div class="job-date">Jan 2024 – Jul 2025 · Nairobi, Kenya</div>
+      <div class="job-date">Jan 2024 – Aug 2025 · Nairobi, Kenya</div>
     </div>
     <ul>
-      <li>Led end-to-end Flutter development of the <b>TradePulse Mobile App</b>, enabling agro-processors to manage inventory, create orders, accept payments, and generate reports — reducing order processing time by <b>40%</b>.</li>
+      <li>Led end-to-end Flutter development of the <b>TradePulse Mobile App</b>, enabling agro-processors to manage inventory, create orders, accept payments, and generate reports.</li>
       <li>Spearheaded React/Next.js development of the <b>TradePulse Sourcing Platform</b>, a CRM-driven B2B system streamlining raw-material sourcing between buyers and suppliers; scaled regionally to hundreds of daily transactions.</li>
     </ul>
   </div>
@@ -148,11 +148,14 @@
   <h2>Selected Projects</h2>
   <div class="proj"><b>Quizlar</b> — Voice-first AI learning platform with real-time WebRTC quiz sessions and FSRS spaced repetition. <span class="stack">LiveKit · LangGraph · DSPy · Deepgram · FastAPI · Flutter · React · PostgreSQL</span></div>
   <div class="proj"><b>Multi-Channel Voice Agent Engine</b> — Agentic voice/WhatsApp/SMS lead-nurturing platform with RAG and M-Pesa billing. <span class="stack">Retell AI · Claude · Qdrant · MySQL + PostgreSQL · React/TypeScript</span></div>
+  <div class="proj"><b>TradePulse Sourcing Platform</b> — B2B supply-chain CRM for agricultural sourcing: role-based dashboards for administrators, agro-processors and suppliers, covering aggregated demand, supplier records, quote lifecycle, deals, orders, payments and wallets. <span class="stack">Next.js 15 · React · TypeScript</span></div>
+  <div class="proj"><b>Doc Sift</b> — Document extraction pipeline turning invoices, POs, receipts and bank statements into structured records synced to the client's system of record, with an eval harness on hand-checked ground truth. <span class="stack">TypeScript · LLM extraction</span></div>
+  <div class="proj"><b>Settlement Reconciliation Platform</b> — 15-stage pipeline normalising ten settlement formats (M-PESA, MTN, Airtel, NIBSS, KEPSS, PAPSS, SWIFT MT940/MT103, ISO 20022 camt.053) across ~180 accounts in 38 African countries. <span class="stack">Python · FastAPI · React · LangGraph</span></div>
   <div class="proj"><b>ERPNext Accounting Ingestion</b> — 12k-document financial migration with LLM-fallback parsing and vector dedup. <span class="stack">Python · ChromaDB · Docling · Claude/Cerebras · ERPNext REST API</span></div>
   <div class="proj"><b>Run.KE</b> — Running events platform for Kenya: event discovery/admin with LLM-vision flyer parsing, track &amp; gym directories, route tool. <span class="stack">Wasp 0.21 · React/TypeScript · Node.js · Prisma · Cloudflare R2 + Turnstile</span></div>
   <div class="proj"><b>Healthspan Content Agent</b> — Agentic content manager that grades drafts on mission-alignment and technical quality, optimizes SEO, and publishes to Ghost CMS. <span class="stack">Mastra · Claude API · Ghost CMS · TypeScript</span></div>
-  <div class="proj"><b>gbrain</b> — Local-first knowledge-graph memory system served over MCP; 100+ tools for semantic retrieval, graph traversal, and fact extraction. <span class="stack">PGLite · Ollama embeddings · MCP · Claude API</span></div>
-  <div class="proj"><b>Cross-Platform Mobile Tracker</b> — Adaptive Flutter app with reactive state and offline-first local persistence. <span class="stack">Flutter · Riverpod · Drift (SQLite)</span></div>
+  <div class="proj"><b>Cross-repository knowledge base</b> — gbrain, a local-first MCP knowledge-graph memory system, integrated across my most important repositories, with the ingestion, rescan, sync and health-check tooling written around it. <span class="stack">gbrain · PGLite · Ollama embeddings · MCP · Claude API</span></div>
+  <div class="proj"><b>Plopped</b> — Bristol-scale bowel health diary, shipped solo to iOS: Premium subscription (in-app purchase), engagement-gated ads, hands-free voice logging (on-device STT into LLM field extraction, reviewed before save), biometric lock, timezone-aware reminders, offline-first local store. Documented domain model and ADRs; CI-built releases. <span class="stack">Flutter · Riverpod · Drift (SQLite) · Firebase Analytics · AdMob · StoreKit</span></div>
 </section>
 
 <div class="grid">
