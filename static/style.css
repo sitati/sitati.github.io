@@ -32,3 +32,8 @@
 #projects .card .card-body > div:last-child {
   flex: 1;
 }
+
+/* Hero portrait: rounded rectangle instead of the theme's oval (rounded-circle) */
+#hero .image img.img-thumbnail {
+  border-radius: 18px;
+}

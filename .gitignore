@@ -27,3 +27,10 @@ site-full-page.png
 
 # Source CV markdown
 peter_sitati_cv.md
+
+# Full-resolution image originals (kept locally, WebP/SVG are what ship)
+/image-originals/
+
+# Job-search working files (public repo: these stay local)
+/jobs/
+/micro1_roles.json

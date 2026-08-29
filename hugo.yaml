@@ -64,11 +64,11 @@ params:
     intro: "Hi, I'm"
     title: "Peter Sitati."
     subtitle: "Builder & Tinkerer | AI, Fintech & Beyond"
-    content: "I build things. From AI agents and DeFi bots to voice-driven learning platforms and telecom infrastructure — if it's interesting, I'll figure out how it works and ship something with it."
-    image: /images/profile.png
+    content: "I build things. From AI agents and DeFi bots to voice-driven learning platforms and settlement infrastructure. If it's interesting, I'll figure out how it works and ship something with it."
+    image: /images/profile.webp
     bottomImage:
       enable: false
-    roundImage: true
+    roundImage: false
     button:
       enable: true
       name: "Download CV"
@@ -92,7 +92,7 @@ params:
     enable: true
     title: "About Me"
     content: |-
-      I'm a tinkerer at heart with 15+ years of building software across wildly different domains — fintech, media, agritech, DeFi, telecom, bioinformatics. I get restless if I'm not pulling apart something new.
+      I'm a tinkerer at heart with 15+ years of building software across wildly different domains: fintech, media, agritech, DeFi, telecom, bioinformatics. I get restless if I'm not pulling apart something new.
 
       My projects range from DeFi bots to voice-first AI tutors built on WebRTC, from automating government tender submissions with Claude to reconciling bank settlements across 38 African countries. I run [NARS Technical Services](https://www.narstechnical.co.ke) in Nairobi, where the rule is simple: if it's an interesting problem, we build it.
     skills:
@@ -141,7 +141,7 @@ params:
             content: |
               Led mobile and web platform development for agro-processing in Nairobi, Kenya.
 
-              - Led end-to-end Flutter development of the TradePulse Mobile App, enabling agro-processors to manage inventory, create orders, accept payments, and generate reports — reducing order processing time by 40%.
+              - Led end-to-end Flutter development of the TradePulse Mobile App, enabling agro-processors to manage inventory, create orders, accept payments, and generate reports.
               - Spearheaded React/Next.js development of the TradePulse Sourcing Platform, a CRM-driven B2B system that streamlined raw material sourcing between buyers and suppliers.
               - Collaborated with product and operations to scale the platform regionally, supporting hundreds of daily transactions.
 
@@ -190,7 +190,7 @@ params:
           - name: "Various Positions"
             date: "2005 - 2010"
             content: |
-              - Research Assistant at Innovative Health Research — mobile health applications for community health workers (2010)
+              - Research Assistant at Innovative Health Research, building mobile health applications for community health workers (2010)
               - Coordinator, Network Installations at NARS Technical Services (2007-2008)
               - Drupal Integrator at Koumbit Network, Montreal (2006-2007)
               - Web Developer at Norpix Inc. (2005-2006)
@@ -220,18 +220,39 @@ params:
   projects:
     enable: true
     items:
-      - title: Voice-First AI Learning Platform
-        image: /images/project-voice-ai.png
-        content: Real-time voice-based quiz sessions with adaptive spaced repetition, built with LiveKit (WebRTC), LangGraph, and Deepgram. Deployed to production with full subscription billing.
+      - title: Quizlar, Voice-First AI Learning Platform
+        image: /images/project-voice-ai.webp
+        content: Real-time voice quiz sessions with adaptive spaced repetition, built on LiveKit (WebRTC), LangGraph and Deepgram. Every tier is mine, from the FastAPI backend and React frontend to the Flutter client and an LLM agent layer with multi-provider failover and DSPy evals that catch grading regressions before users see them.
         badges:
           - "LiveKit"
           - "LangGraph"
-          - "Deepgram"
-          - "WebRTC"
+          - "DSPy"
+          - "FastAPI"
+          - "Flutter"
+
+      - title: Voice and Messaging Agent Platform
+        image: /images/project-voice-agent.svg
+        content: A multilingual conversational agent platform that answers inbound calls and messages on behalf of the business it is deployed into. Real-time speech over LiveKit, a LangGraph agent layer, a FastAPI service tier, a versioned Postgres schema and retrieval over a vector store. Built to drop into an operator's existing workflow rather than replace it.
+        badges:
+          - "LiveKit"
+          - "LangGraph"
+          - "FastAPI"
+          - "PostgreSQL"
+          - "Qdrant"
+
+      - title: Document Extraction Pipeline
+        image: /images/project-doc-extraction.svg
+        content: Invoices, purchase orders, receipts and bank statements go in; structured, queryable records come out and sync into the customer's existing system of record. OCR and PDF parsing feed an LLM extraction layer, served from edge workers over serverless Postgres.
+        badges:
+          - "TypeScript"
+          - "Cloudflare Workers"
+          - "LangGraph"
+          - "OCR"
+          - "PostgreSQL"
 
       - title: Settlement Reconciliation Platform
-        image: /images/project-settlement.png
-        content: Automated extraction and aggregation of bank settlement data across hundreds of accounts in multiple African countries, supporting NIBSS, KEPSS, PAPSS, and SWIFT formats.
+        image: /images/project-settlement.webp
+        content: A 15-stage pipeline that normalizes ten settlement formats, including M-PESA, MTN, Airtel, NIBSS, KEPSS, PAPSS, SWIFT MT940/MT103 and ISO 20022 camt.053, across roughly 180 accounts in 38 African countries.
         badges:
           - "FastAPI"
           - "React"
@@ -239,7 +260,7 @@ params:
           - "Python"
 
       - title: AI Content Management Agent
-        image: /images/project-content-agent-2.png
+        image: /images/project-content-agent-2.webp
         content: Autonomous system using Mastra and Claude to grade, optimize SEO/GEO, and curate 1,200+ blog posts for an electric vehicle publication focused on developing economies.
         badges:
           - "Mastra"
@@ -247,7 +268,7 @@ params:
           - "AI Agents"
 
       - title: Tender Document Automation
-        image: /images/project-tender.png
+        image: /images/project-tender.webp
         content: Extracts fillable fields from complex government PDFs, auto-fills from company profiles, and generates multiple output formats. Used for real government tender submissions.
         badges:
           - "Python"
@@ -255,7 +276,7 @@ params:
           - "Claude API"
 
       - title: eTIMS Integration Tooling
-        image: /images/project-etims-2.png
+        image: /images/project-etims-2.webp
         content: Kenya Revenue Authority electronic tax invoice compliance integration covering 20+ API endpoints across device registration, invoicing, stock management, and item classification.
         badges:
           - "Python"
@@ -263,8 +284,8 @@ params:
           - "KRA"
 
       - title: TradePulse Mobile App
-        image: /images/project-tradepulse.png
-        content: Flutter app enabling agro-processors to manage inventory, create orders, accept payments, and generate reports — reducing order processing time by 40%.
+        image: /images/project-tradepulse.webp
+        content: Flutter app enabling agro-processors to manage inventory, create orders, accept payments and generate reports, paired with the Next.js sourcing platform the same buyers order through.
         badges:
           - "Flutter"
           - "Mobile"

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 559" width="1024" height="559" role="img" aria-label="Abstract illustration of a multichannel conversational agent platform">
+  <rect width="1024" height="559" fill="#0f173c"/>
+  <!-- isometric base -->
+  <polygon points="512,382 812,442 512,502 212,442" fill="#1a6f5e" opacity="0.45"/>
+  <polygon points="512,368 812,428 512,488 212,428" fill="#24b391" opacity="0.6"/>
+  <g fill="#0f173c" opacity="0.35">
+    <ellipse cx="360" cy="428" rx="34" ry="12"/>
+    <ellipse cx="664" cy="428" rx="34" ry="12"/>
+    <ellipse cx="512" cy="466" rx="34" ry="12"/>
+  </g>
+  <g stroke="#8fa3c4" stroke-width="2.5" opacity="0.5" fill="none">
+    <path d="M512 300 L360 422"/><path d="M512 300 L664 422"/><path d="M512 300 L512 460"/>
+  </g>
+  <!-- voice waves -->
+  <g stroke="#2ec4a0" fill="none" stroke-linecap="round">
+    <path d="M392 150 A160 160 0 0 0 392 302" stroke-width="12" opacity="0.9"/>
+    <path d="M340 116 A214 214 0 0 0 340 336" stroke-width="10" opacity="0.5"/>
+    <path d="M632 150 A160 160 0 0 1 632 302" stroke-width="12" opacity="0.9"/>
+    <path d="M684 116 A214 214 0 0 1 684 336" stroke-width="10" opacity="0.5"/>
+  </g>
+  <!-- core -->
+  <circle cx="512" cy="226" r="84" fill="#f4f7fb"/>
+  <circle cx="512" cy="226" r="84" fill="none" stroke="#24b391" stroke-width="9"/>
+  <g stroke="#0f173c" stroke-width="12" stroke-linecap="round">
+    <path d="M476 204 L476 248"/><path d="M498 180 L498 272"/>
+    <path d="M520 192 L520 260"/><path d="M542 210 L542 242"/>
+  </g>
+  <!-- two channels, abstracted -->
+  <g>
+    <rect x="44" y="46" width="196" height="112" rx="28" fill="#f4f7fb"/>
+    <polygon points="84,158 84,196 124,158" fill="#f4f7fb"/>
+    <g fill="#8fa3c4"><rect x="76" y="80" width="132" height="13" rx="6"/><rect x="76" y="110" width="92" height="13" rx="6"/></g>
+  </g>
+  <g>
+    <rect x="784" y="46" width="196" height="112" rx="28" fill="#e8574a"/>
+    <polygon points="940,158 940,196 900,158" fill="#e8574a"/>
+    <g fill="#0f173c" opacity="0.35"><rect x="816" y="80" width="132" height="13" rx="6"/><rect x="816" y="110" width="92" height="13" rx="6"/></g>
+  </g>
+  <g fill="#2ec4a0" opacity="0.7"><circle cx="44" cy="300" r="9"/><circle cx="980" cy="320" r="9"/><circle cx="956" cy="238" r="5"/><circle cx="66" cy="228" r="5"/></g>
+</svg>

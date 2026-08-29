@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Peter Sitati — Resume</title>
+<style>
+  @page { size: A4; margin: 13mm 13mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+    font-size: 9.3pt;
+    line-height: 1.36;
+  }
+  a { color: #0a66c2; text-decoration: none; }
+
+  header { border-bottom: 2.5px solid #0a66c2; padding-bottom: 9px; margin-bottom: 12px; }
+  h1 { font-size: 22pt; font-weight: 700; letter-spacing: 0.5px; color: #111; }
+  .role { font-size: 10pt; color: #0a66c2; font-weight: 600; margin-top: 2px; }
+  .contact { margin-top: 6px; font-size: 8.6pt; color: #555; }
+  .contact span { white-space: nowrap; }
+  .contact .sep { color: #bbb; margin: 0 5px; }
+
+  section { margin-bottom: 11px; }
+  h2 {
+    font-size: 10pt; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 1.2px; color: #0a66c2;
+    border-bottom: 1px solid #ddd; padding-bottom: 3px; margin-bottom: 6px;
+  }
+  p.summary { text-align: justify; }
+
+  .job { margin-bottom: 8px; }
+  .job:last-child { margin-bottom: 0; }
+  .job-head { display: flex; justify-content: space-between; align-items: baseline; }
+  .job-title { font-weight: 700; font-size: 9.7pt; color: #111; }
+  .job-company { font-weight: 600; color: #444; }
+  .job-date { font-size: 8.3pt; color: #888; white-space: nowrap; font-style: italic; }
+  ul { list-style: none; margin-top: 3px; }
+  li { position: relative; padding-left: 12px; margin-bottom: 2px; }
+  li::before { content: "▸"; position: absolute; left: 0; color: #0a66c2; font-size: 7.5pt; top: 0.5px; }
+  li b, .job-content b { color: #111; }
+
+  .proj { margin-bottom: 3px; padding-left: 12px; position: relative; }
+  .proj::before { content: "▹"; position: absolute; left: 0; color: #0a66c2; font-size: 7.5pt; top: 0.5px; }
+  .proj b { color: #111; }
+  .proj .stack { color: #777; font-size: 8.4pt; }
+
+  .grid { display: flex; gap: 20px; }
+  .col-main { flex: 1 1 62%; }
+  .col-side { flex: 1 1 38%; }
+
+  .skill-group { margin-bottom: 5px; }
+  .skill-group .label { font-weight: 700; color: #111; }
+  .edu-item { margin-bottom: 6px; }
+  .edu-school { font-weight: 700; color: #111; }
+  .edu-detail { font-size: 8.6pt; color: #555; }
+  .kv { margin-bottom: 3px; }
+  .kv b { color: #111; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Peter Sitati</h1>
+  <div class="role">Technology Leader · AI, Fintech & Platform Engineering</div>
+  <div class="contact">
+    <span>📍 Nairobi, Kenya</span><span class="sep">|</span>
+    <span>📞 +254 717 574 251</span><span class="sep">|</span>
+    <span>✉️ <a href="mailto:sangura.sitati@gmail.com">sangura.sitati@gmail.com</a></span><span class="sep">|</span>
+    <span><a href="https://www.linkedin.com/in/peter-sitati-5848ab18">LinkedIn</a></span><span class="sep">|</span>
+    <span>🌐 <a href="https://narstech.com">narstech.com</a></span>
+  </div>
+</header>
+
+<section>
+  <h2>Summary</h2>
+  <p class="summary">Innovative technology leader with 15+ years building scalable software platforms, leading cross-functional teams, and driving digital transformation across fintech, media, agritech, and infrastructure. Proven track record shipping production AI systems — voice-driven applications, multi-channel agentic platforms, LLM-powered automation, financial reconciliation, and data-migration pipelines — alongside mobile apps, payment systems, and enterprise integrations.</p>
+</section>
+
+<section>
+  <h2>Professional Experience</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <div><span class="job-title">Chief Executive Officer</span> · <span class="job-company">NARS Technical Services</span></div>
+      <div class="job-date">Mar 2022 – Present · Nairobi, Kenya</div>
+    </div>
+    <ul>
+      <li>Designed and shipped a production <b>LLM-as-judge evaluation system</b> (DSPy) — multi-tier grading of open-ended learner answers with rubric dimensions, confidence scoring and human-review escalation — inside a <b>voice-first AI learning platform</b> (LiveKit/WebRTC, LangGraph, Deepgram, ElevenLabs) with provider failover across OpenAI/Google/Soniox, subscription billing, and 1,100+ automated tests on Fly.io.</li>
+      <li>Architected a <b>multi-channel AI lead-nurturing engine</b> (LangGraph + FastAPI) coordinating voice (Retell AI), WhatsApp, and SMS with Claude conversational logic, a Qdrant <b>RAG</b> knowledge base, and <b>M-Pesa</b>-integrated multi-tenant billing — serving multiple enterprise clients.</li>
+      <li>Developed a <b>settlement reconciliation platform</b> (FastAPI, React, LangGraph) automating extraction of bank settlement data across <b>180 accounts in 38 African countries</b> — NIBSS, KEPSS, PAPSS, SWIFT.</li>
+      <li>Engineered an <b>enterprise data-migration pipeline</b> ingesting ~12,000 legacy financial documents into ERPNext via a 4-stage parser chain with LLM fallback (Claude/Cerebras) and vector-embedding semantic deduplication (ChromaDB).</li>
+      <li>Created an <b>AI content management agent</b> (Mastra, Claude) to autonomously grade, optimize SEO/GEO, and curate <b>1,200+ blog posts</b> for an EV publication focused on developing economies.</li>
+      <li>Built <b>Run.KE</b>, a running events platform for Kenya (Wasp 0.21, React, Node.js, Prisma) — event discovery and admin tooling with <b>LLM-vision flyer parsing</b> for stylized posters, running-track and gym directories (OpenStreetMap), a route tool, Cloudflare R2 presigned uploads, Turnstile bot protection, and scheduled analytics jobs.</li>
+      <li>Built an <b>agentic content manager</b> (Mastra, Claude) for a health publication that grades drafts across mission-alignment and technical-quality dimensions, optimizes SEO, and publishes to Ghost CMS under YMYL/E-E-A-T standards.</li>
+      <li>Built <b>gbrain</b>, a local-first <b>knowledge-graph memory system</b> served over <b>MCP</b> with 100+ tools — semantic retrieval over local Ollama embeddings in PGLite, graph traversal, entity/fact extraction, contradiction detection, document ingestion (PDF/XLSX/DOCX + OCR), and background job orchestration.</li>
+      <li>Built a <b>tender document automation tool</b> (Python, PyMuPDF, Claude API) and <b>eTIMS integration tooling</b> for KRA tax-invoice compliance (20+ endpoints); engineered a DeFi arbitrage trading bot (Solidity, Web3.py).</li>
+      <li>Led deployment of secure, high-availability networking infrastructure (fiber, wireless, LAN) for enterprise clients.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div><span class="job-title">Head of Mobile</span> · <span class="job-company">TradePulse Inc.</span></div>
+      <div class="job-date">Jan 2024 – Jul 2025 · Nairobi, Kenya</div>
+    </div>
+    <ul>
+      <li>Led end-to-end Flutter development of the <b>TradePulse Mobile App</b>, enabling agro-processors to manage inventory, create orders, accept payments, and generate reports — reducing order processing time by <b>40%</b>.</li>
+      <li>Spearheaded React/Next.js development of the <b>TradePulse Sourcing Platform</b>, a CRM-driven B2B system streamlining raw-material sourcing between buyers and suppliers; scaled regionally to hundreds of daily transactions.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div><span class="job-title">Team Leader, Innovation / Software Engineer</span> · <span class="job-company">Radio Africa Group</span></div>
+      <div class="job-date">May 2016 – Apr 2022 · Nairobi, Kenya</div>
+    </div>
+    <ul>
+      <li>Directed agile teams building consumer digital products reaching <b>millions of users</b>: a music streaming platform with real-time recommendations, a digital newspaper with subscriptions, and interactive games/quizzes.</li>
+      <li>Championed modern software practices and cloud infrastructure to accelerate development cycles and digital transformation.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div><span class="job-title">Software Engineer</span> · <span class="job-company">Cellulant Kenya</span></div>
+      <div class="job-date">Nov 2011 – Apr 2016 · Nairobi, Kenya</div>
+    </div>
+    <ul>
+      <li>Developed and maintained <b>bulk payment systems</b> for enterprise and government clients, enabling high-volume secure transactions.</li>
+      <li>Built payment systems powering the <b>Growth Enhancement Support Program</b> (Nigeria), connecting input suppliers to <b>millions of farmers</b> to deliver subsidies efficiently.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div><span class="job-title">Bioinformatician</span> · <span class="job-company">IITA</span> &nbsp;·&nbsp; <span class="job-company">Earlier roles</span></div>
+      <div class="job-date">2005 – 2011</div>
+    </div>
+    <ul>
+      <li>Built data-mining and bioinformatics workflows for genomic data analysis at IITA (2010–11). Prior: Research Assistant, Innovative Health Research · Network Installations Coordinator, NARS · Drupal Integrator, Koumbit Network (Montreal) · Web Developer, Norpix Inc. &amp; Canadian Chemical Biology Network.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Selected Projects</h2>
+  <div class="proj"><b>Quizlar</b> — Voice-first AI learning platform with real-time WebRTC quiz sessions and FSRS spaced repetition. <span class="stack">LiveKit · LangGraph · DSPy · Deepgram · FastAPI · Flutter · React · PostgreSQL</span></div>
+  <div class="proj"><b>Multi-Channel Voice Agent Engine</b> — Agentic voice/WhatsApp/SMS lead-nurturing platform with RAG and M-Pesa billing. <span class="stack">Retell AI · Claude · Qdrant · MySQL + PostgreSQL · React/TypeScript</span></div>
+  <div class="proj"><b>ERPNext Accounting Ingestion</b> — 12k-document financial migration with LLM-fallback parsing and vector dedup. <span class="stack">Python · ChromaDB · Docling · Claude/Cerebras · ERPNext REST API</span></div>
+  <div class="proj"><b>Run.KE</b> — Running events platform for Kenya: event discovery/admin with LLM-vision flyer parsing, track &amp; gym directories, route tool. <span class="stack">Wasp 0.21 · React/TypeScript · Node.js · Prisma · Cloudflare R2 + Turnstile</span></div>
+  <div class="proj"><b>Healthspan Content Agent</b> — Agentic content manager that grades drafts on mission-alignment and technical quality, optimizes SEO, and publishes to Ghost CMS. <span class="stack">Mastra · Claude API · Ghost CMS · TypeScript</span></div>
+  <div class="proj"><b>gbrain</b> — Local-first knowledge-graph memory system served over MCP; 100+ tools for semantic retrieval, graph traversal, and fact extraction. <span class="stack">PGLite · Ollama embeddings · MCP · Claude API</span></div>
+  <div class="proj"><b>Cross-Platform Mobile Tracker</b> — Adaptive Flutter app with reactive state and offline-first local persistence. <span class="stack">Flutter · Riverpod · Drift (SQLite)</span></div>
+</section>
+
+<div class="grid">
+  <div class="col-main">
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skill-group"><span class="label">Languages &amp; Frameworks:</span> Flutter, FlutterFlow, React, Next.js, Node.js, Wasp (Open SaaS), FastAPI, JavaScript, TypeScript, Python, PHP, Solidity, SQL, Bash</div>
+      <div class="skill-group"><span class="label">AI &amp; Voice:</span> LLM Evaluation &amp; Evals (LLM-as-judge), LangGraph, DSPy, Mastra, Claude API, OpenAI, MCP, Qdrant (RAG), ChromaDB, PGLite, Ollama, Deepgram (STT), ElevenLabs (TTS), LiveKit (WebRTC), Retell AI</div>
+      <div class="skill-group"><span class="label">Data &amp; Platforms:</span> PostgreSQL, MySQL, SQLite, Redis, AWS, GCP, Fly.io, Docker, n8n, Ghost CMS, CI/CD, REST APIs</div>
+      <div class="skill-group"><span class="label">Other:</span> LLM Evaluation Design, AI Agent Orchestration, RAG Systems, Data Extraction Pipelines, Systems Architecture, M-Pesa Integration, Agile Leadership</div>
+    </section>
+  </div>
+  <div class="col-side">
+    <section>
+      <h2>Education</h2>
+      <div class="edu-item">
+        <div class="edu-school">Jomo Kenyatta University of Agriculture &amp; Technology</div>
+        <div class="edu-detail">Biochemistry &amp; Molecular Biology</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-school">McGill University</div>
+        <div class="edu-detail">Biochemistry &amp; Molecular Biology</div>
+      </div>
+    </section>
+    <section>
+      <h2>More</h2>
+      <div class="kv"><b>Languages:</b> Swahili (Native), English (Native), French (Working)</div>
+      <div class="kv"><b>Certification:</b> Java Developer Certificate</div>
+      <div class="kv"><b>Publication:</b> <i>Genomics &amp; Potential Downstream Applications in the Developing World</i></div>
+    </section>
+  </div>
+</div>
+
+</body>
+</html>
