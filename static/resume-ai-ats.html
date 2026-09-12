@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Peter Sitati, AI Engineer CV (ATS)</title>
+<style>
+  @page { size: A4; margin: 13mm 14mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+    font-size: 9.55pt;
+    line-height: 1.22;
+  }
+  a { color: #000; text-decoration: none; }
+
+  h1 { font-size: 17pt; font-weight: 700; }
+  .role { font-size: 10.5pt; font-weight: 400; margin-top: 1px; }
+  .contact { margin-top: 3px; font-size: 9.4pt; }
+
+  h2 {
+    font-size: 10.5pt; font-weight: 700; text-transform: uppercase;
+    border-bottom: 1px solid #000; padding-bottom: 2px;
+    margin-top: 7px; margin-bottom: 4px;
+  }
+  p { margin-bottom: 3px; }
+
+  .job-title { font-weight: 700; margin-top: 5px; }
+  .job-meta { font-style: italic; margin-bottom: 1px; }
+  ul { margin: 2px 0 5px 17px; }
+  li { margin-bottom: 1.5px; }
+  .skills-line { margin-bottom: 3px; }
+  .skills-line b { font-weight: 700; }
+</style>
+</head>
+<body>
+
+<h1>Peter Sitati</h1>
+<div class="role">AI and LLM Engineer, Evaluation and Agent Systems</div>
+<div class="contact">
+  Nairobi, Kenya | +254 717 574 251 | sangura.sitati@gmail.com<br>
+  LinkedIn: linkedin.com/in/peter-sitati-5848ab18 | Web: narstech.com
+</div>
+
+<h2>Professional Summary</h2>
+<p>Engineer with 15+ years building production software, now concentrated on large language model systems and the evaluation work that decides whether their output can be shipped. Designed a production LLM-as-judge evaluation harness in DSPy that grades open-ended answers across multiple rubric dimensions with confidence scoring and escalation to human review, built a multi-channel agentic platform on LangGraph coordinating voice, WhatsApp and SMS with retrieval-augmented generation over Qdrant, and wrote a document extraction pipeline measured against a hand-checked ground-truth set. Comfortable across the whole stack these systems need: Python, FastAPI, TypeScript, React and Flutter, with over 1,100 automated tests behind the largest of them. Skilled in DSPy, LangGraph, Mastra, the Claude API, OpenAI, Model Context Protocol (MCP), RAG, Qdrant, ChromaDB, LiveKit and Deepgram.</p>
+
+<h2>Technical Skills</h2>
+<p class="skills-line"><b>AI, LLM and Voice:</b> LLM evaluation and evals (LLM-as-judge grading), LangGraph, DSPy, Mastra, Claude API (Anthropic), OpenAI, Model Context Protocol (MCP), Retrieval-Augmented Generation (RAG), Qdrant, ChromaDB, PGLite, Ollama, Deepgram (speech-to-text), ElevenLabs (text-to-speech), LiveKit (WebRTC), Retell AI</p>
+<p class="skills-line"><b>Languages and Frameworks:</b> Python, TypeScript, JavaScript, Dart, PHP, Solidity, SQL, Bash, FastAPI, React, Next.js, Node.js, Wasp (Open SaaS), Flutter, FlutterFlow</p>
+<p class="skills-line"><b>Data and Databases:</b> PostgreSQL, MySQL, SQLite, Redis, vector embeddings, data extraction pipelines</p>
+<p class="skills-line"><b>Cloud and DevOps:</b> AWS, Google Cloud Platform (GCP), Fly.io, Docker, CI/CD, GitHub Actions, REST APIs</p>
+<p class="skills-line"><b>Domains and Leadership:</b> LLM evaluation design, AI agent orchestration, fintech and payments, M-Pesa integration, KRA eTIMS compliance, systems architecture, agile team leadership</p>
+
+<h2>Professional Experience</h2>
+
+<p class="job-title">Chief Executive Officer, NARS Technical Services</p>
+<p class="job-meta">March 2022 to Present | Nairobi, Kenya</p>
+<ul>
+  <li>Designed and shipped a production LLM-as-judge evaluation system using DSPy, grading open-ended learner answers across multiple rubric dimensions with confidence scoring and escalation to human review, inside a voice-first AI learning platform built on LiveKit (WebRTC), LangGraph, Deepgram, and ElevenLabs, with provider failover across OpenAI, Google Cloud Speech, and Soniox, subscription billing, and over 1,100 automated tests deployed on Fly.io.</li>
+  <li>Architected a multi-channel AI lead-nurturing engine using LangGraph and FastAPI, coordinating voice (Retell AI), WhatsApp, and SMS channels with Claude conversational logic, a Qdrant retrieval-augmented generation (RAG) knowledge base, and M-Pesa-integrated multi-tenant billing serving multiple enterprise clients.</li>
+  <li>Developed a settlement reconciliation platform using FastAPI, React, and LangGraph, automating extraction and aggregation of bank settlement data across 180 accounts in 38 African countries, supporting NIBSS, KEPSS, PAPSS, and SWIFT formats.</li>
+  <li>Engineered an enterprise data-migration pipeline ingesting approximately 12,000 legacy financial documents into ERPNext through a four-stage parser chain with LLM fallback (Claude and Cerebras) and vector-embedding semantic deduplication using ChromaDB.</li>
+  <li>Created an AI content management agent using Mastra and the Claude API to autonomously grade, optimize SEO and GEO, and curate over 1,200 blog posts for an electric vehicle publication focused on developing economies.</li>
+  <li>Built Run.KE, a running events platform for Kenya using Wasp 0.21, React, Node.js, and Prisma, featuring event discovery and admin tooling with LLM-vision parsing of stylized event flyers, running-track and gym directories built on OpenStreetMap data, a route tool, Cloudflare R2 presigned uploads, Cloudflare Turnstile bot protection, and scheduled analytics jobs.</li>
+  <li>Built an agentic content manager (Mastra and Claude API) for a health publication that grades drafts across mission-alignment and technical-quality dimensions, optimizes SEO, and publishes to a Ghost CMS blog under YMYL and E-E-A-T editorial standards.</li>
+  <li>Integrated gbrain, a local-first knowledge-graph memory system served over the Model Context Protocol (MCP), across my most important repositories as a working knowledge base, writing the ingestion, rescan, remote-sync and health-check tooling around it and the query playbooks it is used through. Provides semantic retrieval over local Ollama embeddings in PGLite, graph traversal, entity and fact extraction, and contradiction detection over the corpus.</li>
+  <li>Built a tender document automation tool using Python, PyMuPDF, and the Claude API, and designed eTIMS integration tooling for Kenya Revenue Authority electronic tax-invoice compliance across more than 20 API endpoints.</li>
+  <li>Engineered a DeFi arbitrage trading bot using Solidity, Python, and Web3.py, and led deployment of secure, high-availability networking infrastructure for enterprise clients.</li>
+</ul>
+
+<p class="job-title">Head of Mobile, TradePulse Inc.</p>
+<p class="job-meta">January 2024 to August 2025 | Nairobi, Kenya</p>
+<ul>
+  <li>Led end-to-end Flutter development of the TradePulse Mobile App, enabling agro-processors to manage inventory, create orders, accept payments, and generate reports.</li>
+  <li>Spearheaded React and Next.js development of the TradePulse Sourcing Platform, a CRM-driven B2B system that streamlined raw-material sourcing between buyers and suppliers and scaled regionally to hundreds of daily transactions.</li>
+</ul>
+
+<p class="job-title">Team Leader, Innovation and Software Engineer at Radio Africa Group</p>
+<p class="job-meta">May 2016 to April 2022 | Nairobi, Kenya</p>
+<ul>
+  <li>Directed agile teams building consumer digital products reaching millions of users, including a music streaming platform with real-time recommendations, a digital newspaper with subscriptions, and interactive games and quizzes.</li>
+  <li>Championed modern software engineering practices and cloud infrastructure to accelerate development cycles and digital transformation.</li>
+</ul>
+
+<p class="job-title">Software Engineer, Cellulant Kenya</p>
+<p class="job-meta">November 2011 to April 2016 | Nairobi, Kenya</p>
+<ul>
+  <li>Developed and maintained bulk payment systems for enterprise and government clients, enabling high-volume secure transactions.</li>
+  <li>Built payment systems powering the Growth Enhancement Support Program in Nigeria, connecting input suppliers to millions of farmers to deliver subsidies efficiently.</li>
+</ul>
+
+<p class="job-title">Bioinformatician at IITA, and Earlier Roles</p>
+<p class="job-meta">2005 to 2011 | Nairobi, Kenya and Montreal, Canada</p>
+<ul>
+  <li>Built data-mining and bioinformatics workflows for genomic data analysis at the International Institute of Tropical Agriculture (2010 to 2011).</li>
+  <li>Earlier roles: Research Assistant at Innovative Health Research; Network Installations Coordinator at NARS Technical Services; Drupal Integrator at Koumbit Network (Montreal); Web Developer at Norpix Inc. and the Canadian Chemical Biology Network.</li>
+</ul>
+
+<h2>Selected Projects</h2>
+<ul>
+  <li><b>Quizlar</b>, Voice-first AI learning platform with real-time WebRTC quiz sessions and FSRS spaced repetition. Stack: LiveKit, LangGraph, DSPy, Deepgram, FastAPI, Flutter, React, PostgreSQL.</li>
+  <li><b>Multi-Channel Voice Agent Engine</b>, Agentic voice, WhatsApp, and SMS lead-nurturing platform with RAG and M-Pesa billing. Stack: Retell AI, Claude, Qdrant, MySQL, PostgreSQL, React, TypeScript.</li>
+  <li><b>Doc Sift</b>, Document extraction pipeline turning invoices, purchase orders, receipts and bank statements into structured records synced to the client's system of record, with an eval harness over the extraction built on hand-checked ground truth. Stack: TypeScript, LLM extraction.</li>
+  <li><b>Healthspan Content Agent</b>, Agentic content manager that grades drafts on mission-alignment and technical quality, optimizes SEO, and publishes to Ghost CMS. Stack: Mastra, Claude API, Ghost CMS, TypeScript.</li>
+  <li><b>Cross-repository knowledge base</b>, gbrain, a local-first MCP knowledge-graph memory system, integrated across my most important repositories, with the ingestion, rescan, sync and health-check tooling written around it. Stack: gbrain, PGLite, Ollama embeddings, MCP, Claude API.</li>
+  <li><b>ERPNext Accounting Ingestion</b>, 12,000-document financial data migration with LLM-fallback parsing and vector deduplication. Stack: Python, ChromaDB, Docling, Claude, Cerebras, ERPNext REST API.</li>
+  <li><b>Run.KE</b>, Running events platform for Kenya with event discovery and admin tooling, LLM-vision flyer parsing, track and gym directories, and a route tool. Stack: Wasp 0.21, React, TypeScript, Node.js, Prisma, Cloudflare R2, Turnstile.</li>
+  <li><b>Settlement Reconciliation Platform</b>, 15-stage pipeline normalising ten settlement formats including M-PESA, MTN, Airtel, NIBSS, KEPSS, PAPSS, SWIFT MT940 and MT103, and ISO 20022 camt.053, across roughly 180 accounts in 38 African countries. Stack: Python, FastAPI, React, LangGraph.</li>
+  <li><b>TradePulse Sourcing Platform</b>, B2B supply-chain CRM for agricultural sourcing: role-based dashboards for administrators, agro-processors and suppliers, covering aggregated demand, supplier records, quote lifecycle, deals, orders, payments and wallets. Stack: Next.js 15, React, TypeScript.</li>
+  <li><b>Plopped</b>, Bristol-scale bowel health diary shipped solo to iOS: Premium subscription, engagement-gated ads, hands-free voice logging (on-device speech-to-text into LLM field extraction), biometric lock, timezone-aware reminders, offline-first local store. Stack: Flutter, Riverpod, Drift (SQLite), Firebase Analytics, AdMob, in-app purchase.</li>
+</ul>
+
+<h2>Education</h2>
+<p>BSc Biochemistry and Molecular Biology, Jomo Kenyatta University of Agriculture and Technology</p>
+<p>McGill University, Biochemistry and Molecular Biology coursework, credits transferred to JKUAT</p>
+
+<h2>Additional Information</h2>
+<p>Languages: Swahili (Native), English (Native), French (Working Proficiency)</p>
+<p>Certification: Java Developer Certificate</p>
+<p>Publication: Genomics and Potential Downstream Applications in the Developing World</p>
+
+</body>
+</html>
