@@ -47,7 +47,7 @@
 
 <h2>Technical Skills</h2>
 <p class="skills-line"><b>Languages and Frameworks:</b> Python, TypeScript, JavaScript, Dart, PHP, Solidity, SQL, Bash, FastAPI, React, Next.js, Node.js, Wasp (Open SaaS), Flutter, FlutterFlow</p>
-<p class="skills-line"><b>AI, LLM and Voice:</b> LLM evaluation and evals (LLM-as-judge grading), LangGraph, DSPy, Mastra, n8n, Claude API (Anthropic), OpenAI, Model Context Protocol (MCP, built a FastMCP server), Retrieval-Augmented Generation (RAG), Qdrant, ChromaDB, PGLite, Ollama, Deepgram (speech-to-text), ElevenLabs (text-to-speech), LiveKit (WebRTC), Retell AI</p>
+<p class="skills-line"><b>AI, LLM and Voice:</b> LLM evaluation and evals (LLM-as-judge grading), LangGraph, DSPy, Mastra, n8n, Claude API (Anthropic), OpenAI, Model Context Protocol (MCP, built a FastMCP server), Retrieval-Augmented Generation (RAG), Qdrant, ChromaDB, PGLite, Ollama, Deepgram (speech-to-text), ElevenLabs (text-to-speech), LiveKit (WebRTC), VAPI</p>
 <p class="skills-line"><b>Data and Databases:</b> PostgreSQL, MySQL, SQLite, Redis, vector embeddings, data extraction pipelines</p>
 <p class="skills-line"><b>Cloud and DevOps:</b> AWS, Google Cloud Platform (GCP), Fly.io, Docker, CI/CD, GitHub Actions, REST APIs</p>
 <p class="skills-line"><b>Domains and Leadership:</b> LLM evaluation design, AI agent orchestration, fintech and payments, M-Pesa integration, KRA eTIMS compliance, systems architecture, agile team leadership</p>
@@ -58,7 +58,7 @@
 <p class="job-meta">March 2022 to Present | Nairobi, Kenya</p>
 <ul>
   <li>Designed and shipped a production LLM-as-judge evaluation system using DSPy, grading open-ended learner answers across multiple rubric dimensions with confidence scoring and escalation to human review, inside a voice-first AI learning platform built on LiveKit (WebRTC), LangGraph, Deepgram, and ElevenLabs, with provider failover across OpenAI, Google Cloud Speech, and Soniox, subscription billing, an MCP server exposing the platform to external agents under the same scope enforcement as the REST API, and over 2,300 automated tests with grading and speech-to-text accuracy ratcheted into CI so a regression fails the build, deployed on Fly.io.</li>
-  <li>Architected a multi-channel AI lead-nurturing engine using LangGraph and FastAPI, coordinating voice (Retell AI), WhatsApp, and SMS channels with Claude conversational logic, a Qdrant retrieval-augmented generation (RAG) knowledge base, and M-Pesa-integrated multi-tenant billing serving multiple enterprise clients.</li>
+  <li>Architected a multi-channel AI lead-nurturing engine using LangGraph and FastAPI, coordinating voice (VAPI), WhatsApp, and SMS channels with Claude conversational logic, a Qdrant retrieval-augmented generation (RAG) knowledge base, and M-Pesa-integrated multi-tenant billing serving multiple enterprise clients.</li>
   <li>Developed a settlement reconciliation platform using FastAPI, React, and LangGraph, automating extraction and aggregation of bank settlement data across 180 accounts in 38 African countries, supporting NIBSS, KEPSS, PAPSS, and SWIFT formats.</li>
   <li>Engineered an enterprise data-migration pipeline ingesting approximately 12,000 legacy financial documents into ERPNext through a four-stage parser chain with LLM fallback (Claude and Cerebras) and vector-embedding semantic deduplication using ChromaDB.</li>
   <li>Created an AI content management agent using Mastra and the Claude API to autonomously grade, optimize SEO and GEO, and curate over 1,200 blog posts for an electric vehicle publication focused on developing economies.</li>
@@ -100,7 +100,7 @@
 <h2>Selected Projects</h2>
 <ul>
   <li><b>Quizlar</b>, Voice-first AI learning platform with real-time WebRTC quiz sessions and FSRS spaced repetition, exposed to external agents through an MCP server. Stack: LiveKit, LangGraph, DSPy, FastMCP, Deepgram, FastAPI, Flutter, React, PostgreSQL.</li>
-  <li><b>Multi-Channel Voice Agent Engine</b>, Agentic voice, WhatsApp, and SMS lead-nurturing platform with RAG and M-Pesa billing. Stack: Retell AI, Claude, Qdrant, MySQL, PostgreSQL, React, TypeScript.</li>
+  <li><b>Multi-Channel Voice Agent Engine</b>, Agentic voice, WhatsApp, and SMS lead-nurturing platform with RAG and M-Pesa billing. Stack: VAPI, Claude, Qdrant, MySQL, PostgreSQL, React, TypeScript.</li>
   <li><b>TradePulse Sourcing Platform</b>, B2B supply-chain CRM for agricultural sourcing: role-based dashboards for administrators, agro-processors and suppliers, covering aggregated demand, supplier records, quote lifecycle, deals, orders, payments and wallets. Stack: Next.js 15, React, TypeScript.</li>
   <li><b>Doc Sift</b>, Document extraction pipeline turning invoices, purchase orders, receipts and bank statements into structured records synced to the client's system of record, with an eval harness over the extraction built on hand-checked ground truth. Stack: TypeScript, LLM extraction.</li>
   <li><b>Settlement Reconciliation Platform</b>, 15-stage pipeline normalising ten settlement formats including M-PESA, MTN, Airtel, NIBSS, KEPSS, PAPSS, SWIFT MT940 and MT103, and ISO 20022 camt.053, across roughly 180 accounts in 38 African countries. Stack: Python, FastAPI, React, LangGraph.</li>
