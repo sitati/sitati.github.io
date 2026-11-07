@@ -37,3 +37,25 @@
 #hero .image img.img-thumbnail {
   border-radius: 18px;
 }
+
+/* Hero byline on phones and tablets (layouts/partials/sections/hero/index.html) */
+#hero .hero-byline {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 1.25rem;
+  font-size: 14px;
+  color: var(--text-secondary-color, #B0B3B8);
+}
+#hero .hero-byline img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: none;
+}
+#hero .hero-byline b {
+  display: block;
+  font-weight: 500;
+  color: var(--text-color, #E4E6EB);
+}
