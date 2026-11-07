@@ -83,7 +83,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/sitati
         - icon: fas fa-envelope
-          url: mailto:sangura.sitati@gmail.com
+          url: mailto:peter.sitati@narstechnical.co.ke
       customIcons:
         - icon: /images/nars-icon.webp
           url: https://www.narstechnical.co.ke
@@ -236,7 +236,7 @@ params:
 
       I'm always open to discussing new opportunities, partnerships, or innovative projects. Feel free to reach out!
     btnName: Email Me
-    btnLink: mailto:sangura.sitati@gmail.com
+    btnLink: mailto:peter.sitati@narstechnical.co.ke
 
   footer:
     recentPosts:
