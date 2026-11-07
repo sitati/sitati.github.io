@@ -24,7 +24,7 @@
 - Test gate: `.claude/skills/cv-render/render.sh --check` must exit 0 before any commit (local hugo is 0.169, CI is 0.157).
 - Pre-push: `reviewer` agent on `origin/main..main`; push itself is the user's call.
 - `jobs/`, `peter_sitati_cv.md`, `image-originals/`, `.claude/` are gitignored on purpose (public repo). `jobs/botpool_*` must stay in step with the CVs by hand.
-- Public address is `peter.sitati@narstechnical.co.ke` everywhere (site, CVs, Botpool, outreach); the personal Gmail never goes public (decided 2026-11-07: account-recovery target, scraped forever, off-brand).
+- Public address is `peter.sitati@narstechnical.co.ke` everywhere (site, CVs, Botpool, outreach); no other address goes public (decided 2026-11-07).
 - `hugo --quiet | tail` hides failures; `hugo -d <dir> > log 2>&1; echo $?` and grep `^ERROR`.
 
 ## Never
