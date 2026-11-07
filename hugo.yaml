@@ -65,7 +65,7 @@ params:
     intro: "Hi, I'm"
     title: "Peter Sitati."
     subtitle: "Builder & Tinkerer | AI, Fintech & Beyond"
-    content: "I build AI agents, voice systems and settlement infrastructure that run unattended for real users. Before I build, I ask what you actually care about, then ship a small working piece in your own domain so you judge the work, not the pitch."
+    content: "I build AI agents, voice systems and data pipelines that run unattended for real users. Before I build, I ask what you actually care about, then ship a small working piece in your own domain so you judge the work, not the pitch."
     image: /images/profile.webp
     bottomImage:
       enable: false
