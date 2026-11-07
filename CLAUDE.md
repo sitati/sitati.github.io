@@ -6,7 +6,7 @@
 | any edit to `static/resume*.html` | change the gitignored master `peter_sitati_cv.md` first, then all seven; run `.claude/skills/cv-render/` (renders PDFs, 2pp, no dashes, hugo build) |
 | a CV claim, date, employer or credit | application-writing rules in memory: no em/en dashes, verify authorship in git before crediting Peter, no claims about the employer's process |
 | naming a product, client or stack anywhere public (site, CVs, Botpool, outreach, prototypes) | memory `feedback_naming_rule` (decided 2026-11-07): own products named with link and stack; client work described by domain and outcome, never named, no stack badges, one proof number per project; "Plopped" → "Gut Trainer" only once the App Store listing is live |
-| adding or changing an image | memory `feedback_image_asset_pipeline`: original to `image-originals/` first, ship WebP via `magick … -quality 82 -define webp:method=6` or SVG, cards 1024x559 |
+| adding or changing an image | memory `feedback_image_asset_pipeline`: original to `image-originals/` first, ship WebP via `magick … -strip … -quality 82 -define webp:method=6` or SVG, cards 1024x559 |
 | site copy, hero, about, contact | `hugo.yaml` `params:` only; theme is the `themes/hugo-profile` submodule, override in `layouts/`, never edit the submodule |
 | positioning, who the site is for | `agent-ops/positioning.md` + memory `feedback_base_not_market` (Kenya is base, not market) |
 | Done line (stage 0) | park anchors in `~/.claude/projects/-Users-matrix-Downloads-src-peter-sitati/memory/parked_*.md`, each Next item ends `verify with:` |
