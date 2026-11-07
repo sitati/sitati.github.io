@@ -13,6 +13,7 @@ outputs:
     - "RSS"
 
 enableRobotsTXT: true
+disableKinds: [taxonomy, term]
 
 pagination:
   pagerSize: 3
@@ -53,7 +54,7 @@ params:
     menus:
       disableAbout: false
       disableExperience: false
-      disableEducation: false
+      disableEducation: true
       disableProjects: false
       disableAchievements: true
       disableContact: false
@@ -95,6 +96,8 @@ params:
       I'm a tinkerer at heart with 15+ years of building software across wildly different domains: fintech, media, agritech, DeFi, telecom, bioinformatics. I get restless if I'm not pulling apart something new.
 
       My projects range from DeFi bots to voice-first AI tutors built on WebRTC, from automating government tender submissions with Claude to reconciling bank settlements across 38 African countries. The way I work is the same on every one: find out what the client actually cares about, including what nobody wrote down; ship something real in their domain in the first week; put tests and monitoring around it; write up every change so the next person understands why. I run [NARS Technical Services](https://www.narstechnical.co.ke) in Nairobi, where the rule is simple: if it's an interesting problem, we build it, and we stay on it after it ships.
+
+      BSc Biochemistry & Molecular Biology, JKUAT (coursework at McGill, credits transferred). Publication: *Genomics and Potential Downstream Applications in the Developing World*. Swahili, English, French (working).
     skills:
       enable: true
       title: "Technologies I work with:"
@@ -111,6 +114,7 @@ params:
         - "PostgreSQL"
 
   # Experience
+  # ponytail: 3 roles x 2 bullets per audit F7 (2026-11-07); full history lives in /resume.html
   experience:
     enable: true
     items:
@@ -120,18 +124,10 @@ params:
           - name: "Chief Executive Officer"
             date: "Mar 2022 - Present"
             content: |
-              Building AI-powered enterprise solutions, managing telco infrastructure deployments, and leading software development in Nairobi, Kenya.
+              Building AI-powered software and running telecom infrastructure deployments in Nairobi, Kenya.
 
-              - Managing a team providing telecom services rollout and maintenance including wireless installations, fiber optic cabling (overhead and underground), and LAN deployments for enterprise clients.
-              - Built a voice-first AI learning platform using LiveKit (WebRTC), LangGraph, and Deepgram that transforms study materials into real-time voice-based quiz sessions with adaptive spaced repetition.
-              - Developed a settlement reconciliation platform (FastAPI, React, LangGraph) automating extraction and aggregation of bank settlement data across hundreds of accounts in multiple African countries.
-              - Created an AI-powered content management agent using Mastra and Claude to autonomously grade, optimize SEO/GEO, and curate 1,200+ blog posts.
-              - Built an LPO processing and invoice generation suite (Python, pdfquery, ReportLab) that extracts financial data from Local Purchase Order PDFs and auto-generates professional invoices and reports.
-              - Developed an LPO parser (Python, pdfplumber) for bulk extraction of structured data from procurement documents with multi-strategy fallback for OCR-damaged files.
-              - Engineered a DeFi trading bot (Solidity, Python, Web3.py) that detects and executes arbitrage opportunities across decentralized exchanges with multicall batching and real-time monitoring.
-              - Engineered a tender document automation tool (Python, PyMuPDF, Claude API) for government tender submissions.
-              - Designed eTIMS integration tooling for Kenya Revenue Authority electronic tax invoice compliance.
-              - Led deployment of secure, high-availability networking infrastructure for enterprise clients.
+              - Built Quizlar, a voice-first AI learning platform (LiveKit, LangGraph, Deepgram) that turns study material into real-time spoken quiz sessions with adaptive spaced repetition.
+              - Automated bank settlement reconciliation across 38 African countries.
 
       - company: "TradePulse Inc."
         companyUrl: "#"
@@ -143,78 +139,19 @@ params:
 
               - Led end-to-end Flutter development of the TradePulse Mobile App, enabling agro-processors to manage inventory, create orders, accept payments, and generate reports.
               - Spearheaded React/Next.js development of the TradePulse Sourcing Platform, a CRM-driven B2B system that streamlined raw material sourcing between buyers and suppliers.
-              - Collaborated with product and operations to scale the platform regionally, supporting hundreds of daily transactions.
 
       - company: "Radio Africa Group"
         companyUrl: "#"
         jobs:
           - name: "Team Leader, Innovation"
-            date: "Sep 2018 - Apr 2022"
+            date: "May 2016 - Apr 2022"
             content: |
-              Directed agile teams building consumer digital products reaching millions of users.
+              Joined as a software engineer, then directed agile teams building consumer digital products reaching millions of users.
 
               - Built a music streaming platform with real-time recommendations.
               - Developed a digital newspaper platform enabling subscriptions and seamless content delivery.
-              - Created interactive games and quizzes that boosted engagement and dwell time.
-              - Championed modern software practices and cloud infrastructure to accelerate development cycles.
-          - name: "Software Engineer"
-            date: "May 2016 - Sep 2018"
-            content: "Built consumer digital products and supported digital transformation initiatives for one of East Africa's largest media groups."
 
-      - company: "Cellulant Kenya"
-        companyUrl: "#"
-        jobs:
-          - name: "Software Engineer"
-            date: "Nov 2011 - Apr 2016"
-            content: |
-              Developed payment and fintech systems for enterprise and government clients in Nairobi, Kenya.
-
-              - Developed and maintained bulk payment systems for enterprise and government clients, enabling high-volume secure transactions.
-              - Built payment systems powering the Growth Enhancement Support Program (Nigeria), digitally connecting input suppliers to millions of farmers.
-              - Modeled agricultural input supply chains, managed large datasets, and ensured platform resilience.
-
-      - company: "IITA"
-        companyUrl: "#"
-        jobs:
-          - name: "Bioinformatician"
-            date: "Sep 2010 - Nov 2011"
-            content: |
-              International Institute of Tropical Agriculture, Nairobi, Kenya.
-
-              - Developed data mining and bioinformatics workflows for genomic data analysis.
-              - Managed sequence data storage and retrieval systems; created scripts to parse and process biological sequence data.
-
-      - company: "Earlier Roles"
-        companyUrl: "#"
-        jobs:
-          - name: "Various Positions"
-            date: "2005 - 2010"
-            content: |
-              - Research Assistant at Innovative Health Research, building mobile health applications for community health workers (2010)
-              - Coordinator, Network Installations at NARS Technical Services (2007-2008)
-              - Drupal Integrator at Koumbit Network, Montreal (2006-2007)
-              - Web Developer at Norpix Inc. (2005-2006)
-              - Web Developer at Canadian Chemical Biology Network (2006)
-
-  # Education
-  education:
-    enable: true
-    index: false
-    items:
-      - title: "Biochemistry & Molecular Biology"
-        school:
-          name: "Jomo Kenyatta University of Agriculture and Technology"
-          url: "https://www.jkuat.ac.ke/"
-        content: |-
-          Publication: *Genomics and Potential Downstream Applications in the Developing World*
-
-          Certification: Java Developer Certificate
-      - title: "Biochemistry & Molecular Biology"
-        school:
-          name: "McGill University"
-          url: "https://www.mcgill.ca/"
-        content: |-
-          Languages: English (Native), Swahili (Native), French (Limited Working Proficiency)
+              Earlier: payments at Cellulant, bioinformatics at IITA. [Full history in the CV](/resume.html).
 
   # Projects
   projects:
@@ -294,7 +231,10 @@ params:
   # Contact
   contact:
     enable: true
-    content: "I'm always open to discussing new opportunities, partnerships, or innovative projects. Feel free to reach out!"
+    content: |-
+      **How it starts:** in week one I ship a small working piece in your domain, fixed scope, quoted on the outcome. Tests, monitoring and a written change report come with it.
+
+      I'm always open to discussing new opportunities, partnerships, or innovative projects. Feel free to reach out!
     btnName: Email Me
     btnLink: mailto:sangura.sitati@gmail.com
 
