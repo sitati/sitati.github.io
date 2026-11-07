@@ -252,7 +252,7 @@ params:
 
       - title: Settlement Reconciliation Platform
         image: /images/project-settlement.webp
-        content: A 15-stage pipeline that normalizes ten settlement formats, including M-PESA, MTN, Airtel, NIBSS, KEPSS, PAPSS, SWIFT MT940/MT103 and ISO 20022 camt.053, across roughly 180 accounts in 38 African countries.
+        content: A 15-stage pipeline that normalizes ten settlement formats, including M-PESA, MTN, Airtel, NIBSS, KEPSS, PAPSS, SWIFT MT940/MT103 and ISO 20022 camt.053, across 38 African countries.
         badges:
           - "FastAPI"
           - "React"
