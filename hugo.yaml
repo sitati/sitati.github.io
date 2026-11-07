@@ -64,7 +64,7 @@ params:
     intro: "Hi, I'm"
     title: "Peter Sitati."
     subtitle: "Builder & Tinkerer | AI, Fintech & Beyond"
-    content: "I build things. From AI agents and DeFi bots to voice-driven learning platforms and settlement infrastructure. If it's interesting, I'll figure out how it works and ship something with it."
+    content: "I build AI agents, voice systems and settlement infrastructure that run unattended for real users. Before I build, I ask what you actually care about, then ship a small working piece in your own domain so you judge the work, not the pitch."
     image: /images/profile.webp
     bottomImage:
       enable: false
@@ -94,7 +94,7 @@ params:
     content: |-
       I'm a tinkerer at heart with 15+ years of building software across wildly different domains: fintech, media, agritech, DeFi, telecom, bioinformatics. I get restless if I'm not pulling apart something new.
 
-      My projects range from DeFi bots to voice-first AI tutors built on WebRTC, from automating government tender submissions with Claude to reconciling bank settlements across 38 African countries. I run [NARS Technical Services](https://www.narstechnical.co.ke) in Nairobi, where the rule is simple: if it's an interesting problem, we build it.
+      My projects range from DeFi bots to voice-first AI tutors built on WebRTC, from automating government tender submissions with Claude to reconciling bank settlements across 38 African countries. The way I work is the same on every one: find out what the client actually cares about, including what nobody wrote down; ship something real in their domain in the first week; put tests and monitoring around it; write up every change so the next person understands why. I run [NARS Technical Services](https://www.narstechnical.co.ke) in Nairobi, where the rule is simple: if it's an interesting problem, we build it, and we stay on it after it ships.
     skills:
       enable: true
       title: "Technologies I work with:"
