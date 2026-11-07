@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 559" width="1024" height="559" role="img" aria-label="Abstract illustration of a tax invoice passing a compliance check and fanning out to four groups of service endpoints">
+<rect width="1024" height="559" fill="#0f173c"/>
+<g stroke="#8fa3c4" stroke-width="2.5" fill="none" opacity="0.5">
+<path d="M290 280 L440 280"/>
+<path d="M584 280 C660 280 680 126 760 126"/>
+<path d="M584 280 C670 280 690 230 760 230"/>
+<path d="M584 280 C670 280 690 334 760 334"/>
+<path d="M584 280 C660 280 680 438 760 438"/>
+</g>
+<polygon points="90,80 290,80 290,466 270,482 250,466 230,482 210,466 190,482 170,466 150,482 130,466 110,482 90,466" fill="#f4f7fb"/>
+<g fill="#8fa3c4">
+<rect x="116" y="112" width="96" height="14" rx="7"/>
+<rect x="116" y="164" width="148" height="10" rx="5" opacity="0.7"/>
+<rect x="116" y="194" width="120" height="10" rx="5" opacity="0.7"/>
+<rect x="116" y="224" width="140" height="10" rx="5" opacity="0.7"/>
+<rect x="116" y="254" width="104" height="10" rx="5" opacity="0.7"/>
+<rect x="116" y="284" width="132" height="10" rx="5" opacity="0.7"/>
+</g>
+<path d="M116 330 L264 330" stroke="#8fa3c4" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="116" y="352" width="148" height="24" rx="8" fill="#24b391"/>
+<g fill="#0f173c" opacity="0.8">
+<rect x="116" y="404" width="6" height="40"/><rect x="128" y="404" width="3" height="40"/><rect x="137" y="404" width="8" height="40"/><rect x="151" y="404" width="3" height="40"/><rect x="160" y="404" width="5" height="40"/><rect x="171" y="404" width="9" height="40"/><rect x="186" y="404" width="3" height="40"/><rect x="195" y="404" width="6" height="40"/><rect x="207" y="404" width="3" height="40"/><rect x="216" y="404" width="8" height="40"/><rect x="230" y="404" width="4" height="40"/><rect x="240" y="404" width="6" height="40"/><rect x="252" y="404" width="3" height="40"/><rect x="258" y="404" width="6" height="40"/>
+</g>
+<path d="M512 176 L584 204 L584 282 C584 336 552 370 512 390 C472 370 440 336 440 282 L440 204 Z" fill="#24b391"/>
+<path d="M512 176 L584 204 L584 282 C584 336 552 370 512 390 Z" fill="#1a6f5e" opacity="0.35"/>
+<path d="M480 282 L504 306 L548 258" fill="none" stroke="#f4f7fb" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<g>
+<rect x="760" y="96" width="196" height="60" rx="14" fill="#24305e"/>
+<rect x="760" y="200" width="196" height="60" rx="14" fill="#24305e"/>
+<rect x="760" y="304" width="196" height="60" rx="14" fill="#24305e"/>
+<rect x="760" y="408" width="196" height="60" rx="14" fill="#24305e"/>
+</g>
+<g fill="#2ec4a0">
+<circle cx="792" cy="126" r="8"/><circle cx="822" cy="126" r="8"/><circle cx="852" cy="126" r="8"/><circle cx="882" cy="126" r="8"/><circle cx="912" cy="126" r="8"/>
+<circle cx="792" cy="230" r="8"/><circle cx="822" cy="230" r="8"/><circle cx="852" cy="230" r="8"/><circle cx="882" cy="230" r="8"/><circle cx="912" cy="230" r="8"/>
+<circle cx="792" cy="334" r="8"/><circle cx="822" cy="334" r="8"/><circle cx="852" cy="334" r="8"/><circle cx="882" cy="334" r="8"/>
+<circle cx="792" cy="438" r="8"/><circle cx="822" cy="438" r="8"/><circle cx="852" cy="438" r="8"/><circle cx="882" cy="438" r="8"/><circle cx="912" cy="438" r="8"/>
+</g>
+<circle cx="912" cy="334" r="8" fill="#e8574a"/>
+<g fill="#2ec4a0" opacity="0.7">
+<circle cx="380" cy="100" r="8"/>
+<circle cx="640" cy="480" r="9"/>
+<circle cx="990" cy="60" r="6"/>
+</g>
+</svg>

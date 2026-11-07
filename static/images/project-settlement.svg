@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 559" width="1024" height="559" role="img" aria-label="Abstract illustration of ten settlement file formats flowing through a staged pipeline into one reconciled ledger">
+<rect width="1024" height="559" fill="#0f173c"/>
+<g stroke="#8fa3c4" stroke-width="2.5" fill="none" opacity="0.45">
+<path d="M126 96 C260 96 280 270 380 270"/>
+<path d="M196 178 C280 178 300 270 380 270"/>
+<path d="M126 260 C260 260 300 270 380 270"/>
+<path d="M196 342 C280 342 300 270 380 270"/>
+<path d="M126 424 C260 424 280 270 380 270"/>
+<path d="M196 96 C300 96 300 270 380 270"/>
+<path d="M126 178 C270 178 290 270 380 270"/>
+<path d="M196 260 C290 260 310 270 380 270"/>
+<path d="M126 342 C270 342 290 270 380 270"/>
+<path d="M196 424 C300 424 300 270 380 270"/>
+</g>
+<g>
+<rect x="62" y="70" width="64" height="52" rx="10" fill="#f4f7fb"/>
+<rect x="132" y="70" width="64" height="52" rx="10" fill="#2ec4a0"/>
+<rect x="62" y="152" width="64" height="52" rx="10" fill="#8fa3c4"/>
+<rect x="132" y="152" width="64" height="52" rx="10" fill="#e8574a"/>
+<rect x="62" y="234" width="64" height="52" rx="10" fill="#2ec4a0"/>
+<rect x="132" y="234" width="64" height="52" rx="10" fill="#f4f7fb"/>
+<rect x="62" y="316" width="64" height="52" rx="10" fill="#f4f7fb"/>
+<rect x="132" y="316" width="64" height="52" rx="10" fill="#8fa3c4"/>
+<rect x="62" y="398" width="64" height="52" rx="10" fill="#e8574a"/>
+<rect x="132" y="398" width="64" height="52" rx="10" fill="#2ec4a0"/>
+</g>
+<rect x="380" y="236" width="330" height="68" rx="34" fill="#24305e"/>
+<g fill="#24b391">
+<rect x="402" y="254" width="12" height="32" rx="4" opacity="0.3"/>
+<rect x="422" y="254" width="12" height="32" rx="4" opacity="0.35"/>
+<rect x="442" y="254" width="12" height="32" rx="4" opacity="0.4"/>
+<rect x="462" y="254" width="12" height="32" rx="4" opacity="0.45"/>
+<rect x="482" y="254" width="12" height="32" rx="4" opacity="0.5"/>
+<rect x="502" y="254" width="12" height="32" rx="4" opacity="0.55"/>
+<rect x="522" y="254" width="12" height="32" rx="4" opacity="0.6"/>
+<rect x="542" y="254" width="12" height="32" rx="4" opacity="0.65"/>
+<rect x="562" y="254" width="12" height="32" rx="4" opacity="0.7"/>
+<rect x="582" y="254" width="12" height="32" rx="4" opacity="0.75"/>
+<rect x="602" y="254" width="12" height="32" rx="4" opacity="0.8"/>
+<rect x="622" y="254" width="12" height="32" rx="4" opacity="0.85"/>
+<rect x="642" y="254" width="12" height="32" rx="4" opacity="0.9"/>
+<rect x="662" y="254" width="12" height="32" rx="4" opacity="0.95"/>
+<rect x="682" y="254" width="12" height="32" rx="4"/>
+</g>
+<path d="M710 270 L758 270" stroke="#8fa3c4" stroke-width="3" opacity="0.6"/>
+<rect x="758" y="110" width="210" height="320" rx="18" fill="#f4f7fb"/>
+<rect x="758" y="110" width="210" height="44" rx="18" fill="#8fa3c4"/>
+<rect x="758" y="136" width="210" height="18" fill="#8fa3c4"/>
+<g fill="#8fa3c4">
+<rect x="782" y="182" width="112" height="12" rx="6"/>
+<rect x="782" y="226" width="96" height="12" rx="6"/>
+<rect x="782" y="270" width="120" height="12" rx="6"/>
+<rect x="782" y="314" width="88" height="12" rx="6"/>
+<rect x="782" y="358" width="108" height="12" rx="6"/>
+</g>
+<g fill="#24b391">
+<circle cx="936" cy="188" r="11"/>
+<circle cx="936" cy="232" r="11"/>
+<circle cx="936" cy="276" r="11"/>
+<circle cx="936" cy="364" r="11"/>
+</g>
+<circle cx="936" cy="320" r="11" fill="#e8574a"/>
+<g fill="#2ec4a0" opacity="0.7">
+<circle cx="300" cy="500" r="8"/>
+<circle cx="990" cy="70" r="6"/>
+<circle cx="560" cy="120" r="9"/>
+</g>
+</svg>

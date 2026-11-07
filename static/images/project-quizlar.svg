@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 559" width="1024" height="559" role="img" aria-label="Abstract illustration of a voice quiz: flashcards, a spoken answer, a grade and a spaced review timeline">
+<rect width="1024" height="559" fill="#0f173c"/>
+<g stroke="#8fa3c4" stroke-width="3" stroke-dasharray="2 12" stroke-linecap="round" fill="none" opacity="0.6">
+<path d="M330 250 L392 230"/>
+<path d="M660 230 L716 230"/>
+</g>
+<rect x="96" y="150" width="210" height="150" rx="18" fill="#24305e" transform="rotate(-8 201 225)"/>
+<rect x="108" y="160" width="210" height="150" rx="18" fill="#8fa3c4" opacity="0.55" transform="rotate(-3 213 235)"/>
+<rect x="120" y="172" width="210" height="150" rx="18" fill="#f4f7fb"/>
+<rect x="148" y="204" width="130" height="14" rx="7" fill="#8fa3c4"/>
+<rect x="148" y="232" width="92" height="14" rx="7" fill="#8fa3c4"/>
+<rect x="148" y="272" width="54" height="22" rx="11" fill="#2ec4a0"/>
+<rect x="400" y="160" width="250" height="140" rx="36" fill="#24b391"/>
+<polygon points="450,300 450,346 494,300" fill="#24b391"/>
+<g stroke="#f4f7fb" stroke-width="12" stroke-linecap="round">
+<path d="M462 214 L462 246"/>
+<path d="M488 196 L488 264"/>
+<path d="M514 184 L514 276"/>
+<path d="M540 202 L540 258"/>
+<path d="M566 190 L566 270"/>
+<path d="M592 210 L592 250"/>
+</g>
+<circle cx="796" cy="230" r="76" fill="#f4f7fb"/>
+<circle cx="796" cy="230" r="76" fill="none" stroke="#24b391" stroke-width="9"/>
+<path d="M760 232 L786 258 L836 204" fill="none" stroke="#0f173c" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 450 L914 450" stroke="#8fa3c4" stroke-width="3" opacity="0.5"/>
+<g fill="#2ec4a0">
+<circle cx="140" cy="450" r="11" opacity="0.35"/>
+<circle cx="196" cy="450" r="11" opacity="0.45"/>
+<circle cx="276" cy="450" r="11" opacity="0.55"/>
+<circle cx="392" cy="450" r="11" opacity="0.7"/>
+<circle cx="560" cy="450" r="13" opacity="0.85"/>
+<circle cx="890" cy="450" r="16"/>
+</g>
+<circle cx="236" cy="450" r="8" fill="#e8574a"/>
+<g fill="#2ec4a0" opacity="0.7">
+<circle cx="52" cy="92" r="8"/>
+<circle cx="972" cy="96" r="6"/>
+<circle cx="944" cy="350" r="9"/>
+</g>
+</svg>
